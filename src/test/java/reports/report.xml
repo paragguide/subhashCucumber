@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="65.834" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="My Project Document" name="Userid Test" time="35.191">
+<system-out><![CDATA[
+Given i open "chrome" and go to "https://www.amazon.in/"....................passed
+And i click signin..........................................................passed
+When I enter valid userid "paragguide@yahoo.co.in"..........................passed
+And click continue button...................................................passed
+Then I shiould get password textbox.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="My Project Document" name="Password Test" time="30.294">
+<system-out><![CDATA[
+Given userid is valid.......................................................passed
+When i enter valid password "RMinfotech"....................................passed
+Then i should login.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
